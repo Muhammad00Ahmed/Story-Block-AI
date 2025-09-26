@@ -1,52 +1,83 @@
-📖 Project Overview – StoryblokAI
-✨ What We Built
+<h1 align="center">🚀 StoryblokAI</h1>
+<p align="center">
+  <strong>AI-powered content creation and management built with Storyblok, OpenAI, and TypeScript</strong><br/>
+  Submission for the <a href="https://storyblok.com/">Storyblok × Code & Coffee Hackathon 2025</a>
+</p>
 
-StoryblokAI is an AI-powered content management assistant that fuses Storyblok’s headless CMS with OpenAI’s generative language models.
-It empowers content teams to ideate, write, and publish articles or marketing copy directly inside a seamless web interface—reducing time from concept to publish by up to 70%.
+<p align="center">
+  <a href="https://storyblockai.vercel.app"><img src="https://img.shields.io/badge/demo-live-green?style=for-the-badge" alt="Live Demo"></a>
+  <a href="https://github.com/<your-username>/Story-Block-AI/stargazers"><img src="https://img.shields.io/github/stars/<your-username>/Story-Block-AI?style=for-the-badge" alt="GitHub stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License"></a>
+</p>
 
-💡 Motivation
+---
 
-Modern content creators face three recurring challenges:
+## 🌟 Overview
 
-Blank-page syndrome – starting from scratch slows production.
+**StoryblokAI** helps creators brainstorm, write, translate, and publish content seamlessly.  
+By merging **Storyblok’s headless CMS** with **OpenAI’s generative AI**, content workflows become faster, smarter, and more consistent—**fully typed with TypeScript** for a safer and more scalable codebase.
 
-Multi-channel demands – content must adapt to web, mobile, and social simultaneously.
+### ✨ Key Features
+- **AI Content Generation** – Create blog posts, headlines, or marketing copy with a simple prompt.  
+- **Instant Translation** – Localize content into multiple languages instantly.  
+- **Accessibility Checks** – Ensures alt text, headings, and structure meet accessibility standards.  
+- **Live Preview & Publish** – Preview drafts and push live updates in real time.
 
-Workflow friction – jumping between AI tools and CMS platforms creates duplication.
+---
 
-StoryblokAI solves these by bringing AI generation and CMS management into a single experience.
+## 🖼 Screenshots
 
-🚀 Key Features
 
-AI Content Generation – Draft headlines, outlines, or full posts with a single prompt using OpenAI.
-
-Smart Editing & Expansion – Rewrite, summarise, or expand existing text in seconds.
-
-Storyblok Integration – Save generated content straight into your Storyblok Space (287147437758223) using the Management API.
-
-Live Draft Preview – Instantly preview unpublished content through the Preview API.
-
-One-Click Publishing – Push polished content live to any front-end framework powered by Storyblok.
-
-🏗️ Architecture & Tech Stack
+🏗 Tech Stack
 Layer	Technology
-Frontend	Next.js 14 (React + TypeScript)
-Styling	Tailwind CSS
-CMS	Storyblok Headless CMS
+Language	TypeScript
+Frontend	Next.js 14, React, Tailwind CSS
+CMS / API	Storyblok (Preview & Management APIs)
 AI Engine	OpenAI GPT API
 Deployment	Vercel
-Data Handling	Storyblok Preview & Management APIs
 
-Environment variables (stored in Vercel) securely provide access to the Preview token, Management token, Space ID, and OpenAI API key.
+⚡ Live Demo & Video
+Web App: https://storyblockai.vercel.app
 
-🌟 Why It’s Innovative
+Demo Video: YouTube Link
 
-Unified Workflow: No switching between writing tools and CMS dashboards.
+🚀 Getting Started
+# 1. Clone the repo
+git clone https://github.com/<your-username>/Story-Block-AI.git
+cd Story-Block-AI
 
-Composable & Framework-Agnostic: Any Storyblok-powered front end (Next.js, Nuxt, Astro, etc.) can consume the content instantly.
+# 2. Install dependencies
+npm install
 
-AI-First Editing: Generative features help creators overcome writer’s block and ensure consistent brand voice.
+# 3. Create env file
+cp .env.example .env.local
+# Fill in:
+# STORYBLOK_PREVIEW_TOKEN=...
+# STORYBLOK_MANAGEMENT_TOKEN=...
+# STORYBLOK_SPACE_ID=...
+# OPENAI_API_KEY=...
 
-🔗 Live Demo
+# 4. Run locally
+npm run dev
+# Open http://localhost:3000
+🛠 Architecture & Integration
+Next.js with TypeScript provides a strong type system and developer experience
 
-Web App: https://storyblockai.vercel.app/
+Stores content in Storyblok, leveraging Preview and Management APIs
+
+OpenAI GPT powers AI content generation and translation
+
+Deployed on Vercel for CI/CD and hosting
+
+🤝 Contributing
+Contributions are welcome!
+Open an issue first to discuss any major changes.
+
+📜 License
+Distributed under the MIT License. See LICENSE for details.
+
+🏆 Hackathon Submission
+Built for the “Combine the power of Storyblok and AI” track
+of Storyblok × Code & Coffee Hackathon 2025.
+
+<p align="center"> Made with ❤️ using <strong>TypeScript</strong> by <a href="(https://github.com/Muhammad00Ahmed/Story-Block-AI.git)">Muhammad Ahmed Rangila</a> </p> 
