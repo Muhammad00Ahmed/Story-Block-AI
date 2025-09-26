@@ -29,6 +29,7 @@ By merging **Storyblok’s headless CMS** with **OpenAI’s generative AI**, con
 
 
 🏗 Tech Stack
+
 Layer	Technology
 Language	TypeScript
 Frontend	Next.js 14, React, Tailwind CSS
@@ -37,19 +38,23 @@ AI Engine	OpenAI GPT API
 Deployment	Vercel
 
 ⚡ Live Demo & Video
+
 Web App: https://storyblockai.vercel.app
 
 Demo Video: YouTube Link
 
 🚀 Getting Started
+
 # 1. Clone the repo
-git clone https://github.com/<your-username>/Story-Block-AI.git
+git clone https://github.com/Muhammad00Ahmed/Story-Block-AI.git
 cd Story-Block-AI
 
 # 2. Install dependencies
+
 npm install
 
 # 3. Create env file
+
 cp .env.example .env.local
 # Fill in:
 # STORYBLOK_PREVIEW_TOKEN=...
@@ -57,7 +62,8 @@ cp .env.example .env.local
 # STORYBLOK_SPACE_ID=...
 # OPENAI_API_KEY=...
 
-# 4. Run locally
+# 4. Run 
+
 npm run dev
 # Open http://localhost:3000
 🛠 Architecture & Integration
