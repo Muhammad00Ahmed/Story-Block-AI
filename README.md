@@ -46,7 +46,9 @@ Demo Video: YouTube Link
 🚀 Getting Started
 
 # 1. Clone the repo
+
 git clone https://github.com/Muhammad00Ahmed/Story-Block-AI.git
+
 cd Story-Block-AI
 
 # 2. Install dependencies
@@ -55,7 +57,8 @@ npm install
 
 # 3. Create env file
 
-cp .env.example .env.local
+.env.local
+
 # Fill in:
 # STORYBLOK_PREVIEW_TOKEN=...
 # STORYBLOK_MANAGEMENT_TOKEN=...
@@ -65,7 +68,9 @@ cp .env.example .env.local
 # 4. Run 
 
 npm run dev
+
 # Open http://localhost:3000
+
 🛠 Architecture & Integration
 Next.js with TypeScript provides a strong type system and developer experience
 
@@ -79,11 +84,10 @@ Deployed on Vercel for CI/CD and hosting
 Contributions are welcome!
 Open an issue first to discuss any major changes.
 
-📜 License
-Distributed under the MIT License. See LICENSE for details.
 
 🏆 Hackathon Submission
 Built for the “Combine the power of Storyblok and AI” track
 of Storyblok × Code & Coffee Hackathon 2025.
+
 
 <p align="center"> Made with ❤️ using <strong>TypeScript</strong> by <a href="(https://github.com/Muhammad00Ahmed/Story-Block-AI.git)">Muhammad Ahmed Rangila</a> </p> 
